@@ -11,7 +11,7 @@ Driver for HDC1000 temperature and humidity sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/hdc1000^1.0.0
+idf.py add-dependency esp-idf-lib/hdc1000^1.0.0
 ```
 
 ## Support
