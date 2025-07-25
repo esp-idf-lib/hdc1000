@@ -1,5 +1,9 @@
 # esp-idf-lib/hdc1000
 
+[![Build examples](https://github.com/esp-idf-lib/hdc1000/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/hdc1000/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/hdc1000/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/hdc1000/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/hdc1000/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/hdc1000/actions/workflows//validate-component.yml)
+
 Driver for HDC1000 temperature and humidity sensor.
 
 * [Documentation](https://esp-idf-lib.github.io/hdc1000/)
@@ -11,7 +15,7 @@ Driver for HDC1000 temperature and humidity sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/hdc1000^1.0.0
+idf.py add-dependency esp-idf-lib/hdc1000
 ```
 
 ## Support
