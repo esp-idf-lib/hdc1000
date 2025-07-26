@@ -1,7 +1,7 @@
 ---
 name: hdc1000
 description: Driver for HDC1000 temperature and humidity sensor
-version: 1.0.2
+version: 1.0.3
 groups:
   - temperature
   - humidity
