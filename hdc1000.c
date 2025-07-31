@@ -274,7 +274,7 @@ esp_err_t hdc1000_set_resolution(hdc1000_t *dev, hdc1000_temperature_resolution_
     CHECK_ARG(dev && tres <= HDC1000_T_RES_11 && hres <= HDC1000_H_RES_8);
 
     return update_reg(dev, REG_CONFIG, (tres << BIT_CONFIG_TRES) | (hres << BIT_CONFIG_HRES),
-            BIT(BIT_CONFIG_TRES) | MASK_CONFIG_HRES);
+                      BIT(BIT_CONFIG_TRES) | MASK_CONFIG_HRES);
 }
 
 esp_err_t hdc1000_trigger_measurement(hdc1000_t *dev)

@@ -54,7 +54,8 @@ extern "C" {
 /**
  * Temperature resolution
  */
-typedef enum {
+typedef enum
+{
     HDC1000_T_RES_14 = 0, /**< 14 bits, default */
     HDC1000_T_RES_11,     /**< 11 bits */
 } hdc1000_temperature_resolution_t;
@@ -62,7 +63,8 @@ typedef enum {
 /**
  * Humidity resolution
  */
-typedef enum {
+typedef enum
+{
     HDC1000_H_RES_14 = 0, /**< 14 bits, default */
     HDC1000_H_RES_11,     /**< 11 bits */
     HDC1000_H_RES_8,      /**< 8 bits */
@@ -71,7 +73,8 @@ typedef enum {
 /**
  * Measurement mode
  */
-typedef enum {
+typedef enum
+{
     HDC1000_MEASURE_TEMPERATURE = 0, /**< Temperature only */
     HDC1000_MEASURE_HUMIDITY,        /**< Humidity only */
     HDC1000_MEASURE_BOTH,            /**< Both temperature and humidity, default */

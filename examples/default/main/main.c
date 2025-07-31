@@ -29,7 +29,7 @@ void task(void *pvParameters)
     ESP_ERROR_CHECK(hdc1000_get_device_id(&dev, &dev_id));
 
     ESP_LOGI(TAG, "HDC1000, Manufacturer ID: 0x%04x, device ID: 0x%04x, serial number: 0x%08" PRIx32 "%08" PRIx32,
-            manuf_id, dev_id, serial[0], serial[1]);
+             manuf_id, dev_id, serial[0], serial[1]);
 
     float temperature, humidity;
 
